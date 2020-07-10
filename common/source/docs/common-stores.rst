@@ -38,6 +38,7 @@ recommended for use with ArduPilot (in alphabetical order).  You may also want t
 * `UAV Systems International <https://uavsystemsinternational.com/collections/all>`__
 * `VirtualRobotix <http://www.virtualrobotix.it/index.php/en/shop>`__
 * `3DXR <https://www.3dxr.co.uk/>`__
+* `XLRS(eXtended Long Range System)<https://d3.xlrs.eu/>`__ (XLRS systems, Radio Control, Transparent Data Link / Mavlink Telemetry & video of long range) 
 
 
 [copywiki destination="copter,plane,rover,planner,planner2,antennatracker,dev,ardupilot,mavproxy"]
