@@ -127,6 +127,10 @@ Below is a table with some commonly  available systems showing these elements. N
 |                       |      |          |            |           |  DSM-X/      |        |
 |                       |      |          |            |           |  SRXL1       |        |
 +-----------------------+------+----------+------------+-----------+--------------+--------+
+|Digital Micro Devices  |Long  |  Bi-dir  |  115200b   |   -       |  PPM-SUM     |        |
+|(DMD)                  |      |          |            |           |              |        |
+|XLRS Systems           |      |          |            |           |              |        |
++-----------------------+------+----------+------------+-----------+--------------+--------+
 
 Note 1: DragonLink provides a 56Kbaud transparent link for telemetry, allowing full MAVLink telemetry to/from the vehicle from the transmitter module. Dragonlink is an add-on module to the transmitter, such as an FRSky Taranis or RadioMaster T16. See :ref:`common-dragonlink-rc`
 
@@ -143,6 +147,7 @@ Without integrated telemetry:
     FLYSKY <common-flysky-rc>
     Futaba <common-futaba-rc>
     Spektrum <common-spektrum-rc>
+   
 
 
 With integrated telemetry:
@@ -154,6 +159,7 @@ With integrated telemetry:
     FRSky <common-frsky-rc>
     Graupner (HOTT) <common-graupner-rc>
     Multiplex (no support in Ardupilot for M-Link telemetry yet) <common-multiplex-rc>
+    XLRS (eXtended Long Range System) (Page in construction)
 
 Multi-Protocol:
 
@@ -171,6 +177,8 @@ In Europe, Multiplex and Graupner are well established systems and comply with E
 FLYSKY produces very low cost, low end systems.
 
 FRSky and Spektrum enjoy the largest established bases with Spektrum dominant in park flyer and entry level RC systems. FRSky has telemetry capabilities and utilizes `OpenTX <https://www.open-tx.org/>`__ which is very flexible and is continually adding features in the firmware.
+
+XLRS are professional Radio Control and Telemetry systems for Long Range applications (LOS) from 15Km to 200Km according to XLRS devices, they have a wide variety of products with different price ranges. Prepared to comply with CE, FCC, ETA regulations... The RF modules are dual band and use the free ISM bands in 866-950Mhz but also for other types of projects other frequencies such as 433Mhz or similar can be used.
 
 The Jumper T16 and RadioMaster T16 are FRSky Horus-like OpenTX based transmitter clones with multiple RC protocols built-in.
 
